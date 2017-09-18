@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD OPERATION</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/Google-Style-Login.css">
+    <link rel="stylesheet" href="assets/css/untitled.css">
+	<style>
+body{
+background-color:rgb(217,217,217);
+}
+</style>
+</head>
+
+<body>
+    <div class="login-card"><img src="assets/img/professional1.jpg" class="profile-img-card">
+        <p class="profile-name-card"> </p>
+        <form  class="form-signin" action="loginverify.php" method="POST"><span class="reauth-email"> </span>
+            <input class="form-control" type="email" required="" placeholder="Email address" autofocus="" name="email" id="inputEmail">
+            <input class="form-control" type="password" required="" placeholder="Password" name="password" id="inputPassword">
+            <div class="checkbox">
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox">Remember me</label>
+                </div>
+            </div>
+            <button class="btn btn-primary btn-block btn-lg btn-signin" type="submit" name="login">Login </button>
+			<br>
+        </form>
+		<form action="reg.php">
+		 <button  class="btn btn-primary btn-block btn-lg btn-signin" >Register </button></form>
+		 
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
